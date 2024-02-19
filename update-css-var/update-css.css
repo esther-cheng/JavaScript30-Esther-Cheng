@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+:root {
+    --base: #ffffff;
+    --spacing: 10px;
+    --blur: 10px;
+    background-color: rgb(127, 187, 255);
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+img {
+    margin-top: 20px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+body {
+    text-align: center;
+}
+
+.hl {
+    color: var(--base);
+}
+
